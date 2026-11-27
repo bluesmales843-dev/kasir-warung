@@ -1,1 +1,35 @@
-{"name":"Kasir Warung Sembako","short_name":"Kasir Warung","description":"Aplikasi kasir warung sembako, bisa dipakai offline","start_url":"./","scope":"./","display":"standalone","orientation":"any","background_color":"#0f766e","theme_color":"#0f766e","lang":"id","icons":[{"src":"icon-192.png","sizes":"192x192","type":"image/png","purpose":"any"},{"src":"icon-512.png","sizes":"512x512","type":"image/png","purpose":"any"},{"src":"icon-512.png","sizes":"512x512","type":"image/png","purpose":"maskable"}]}
+
+{
+  "id": "/kasir-warung/",
+  "name": "King Fatih Store",
+  "short_name": "King Fatih",
+  "description": "Aplikasi kasir warung sembako, mudah, cepat, dan terpercaya",
+  "start_url": "/kasir-warung/",
+  "scope": "/kasir-warung/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#eef3f9",
+  "theme_color": "#008c62",
+  "lang": "id",
+  "categories": ["shopping", "business"],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
