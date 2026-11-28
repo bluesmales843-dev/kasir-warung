@@ -2,7 +2,7 @@
 {
   "id": "/kasir-warung/",
   "name": "King Fatih Store",
-  "short_name": "King Fatih",
+  "short_name": "Pemilik Toko",
   "description": "Aplikasi kasir warung sembako, mudah, cepat, dan terpercaya",
   "start_url": "/kasir-warung/",
   "scope": "/kasir-warung/",
