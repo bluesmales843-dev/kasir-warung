@@ -388,7 +388,7 @@ const syLock=n=>{if(!(localStorage.getItem('sync_cfg')||(window.__sy&&__sy.SC)))
 function rs(){if(syLock('Restore'))return;const i=document.createElement('input');i.type='file';i.accept='.json';i.onchange=async()=>{try{const d=JSON.parse(await i.files[0].text());if(!d.prods||!d.users)throw 0;if(syLock('Restore')||!confirm('Timpa semua data dengan backup ini?'))return;db=d;save();alert('Restore berhasil. Silakan masuk lagi.');me=null;login()}catch(e){alert('File backup tidak valid')}};i.click()}
 let ip=null;addEventListener("beforeinstallprompt",e=>{e.preventDefault();ip=e;const b=$("ib");if(b)b.style.display="block"});
 login();
-if(ip&&$("ib"))$("ib").style.display="block";
+(()=>{const a=$("app");if(!a)return;const s=()=>{const b=$("ib");if(ip&&b)b.style.display="block"};new MutationObserver(s).observe(a,{childList:true,subtree:true});s()})();
 if("serviceWorker" in navigator)window.addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{}));
 </script>
 <script>
