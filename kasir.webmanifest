@@ -1,0 +1,22 @@
+{
+ "id": "kasir.html",
+ "name": "Kasir Karyawan",
+ "short_name": "Kasir",
+ "start_url": "kasir.html",
+ "scope": "./",
+ "display": "standalone",
+ "background_color": "#0f172a",
+ "theme_color": "#0f766e",
+ "icons": [
+  {
+   "src": "kasir-icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "kasir-icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png"
+  }
+ ]
+}
